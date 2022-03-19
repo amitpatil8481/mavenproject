@@ -9,7 +9,7 @@ pipeline {
 
     stage('post build shell script') {
       steps {
-        sh 'echo "Build is successful"'
+        sh 'echo "Build is successful for develop branch"'
       }
     }
 
