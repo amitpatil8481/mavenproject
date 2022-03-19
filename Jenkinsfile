@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build code') {
       steps {
-        sh 'cd myapp && mvn install'
+        sh 'cd my-app && mvn install'
       }
     }
 
