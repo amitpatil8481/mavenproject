@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('post build shell script') {
+      steps {
+        sh 'echo "Build is successful"'
+      }
+    }
+
   }
 }
